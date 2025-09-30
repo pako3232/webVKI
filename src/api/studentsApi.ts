@@ -1,6 +1,6 @@
 import type StudentInterface from "@/types/StudentsInterface";
 
-export const GetStudentsApi = async (): Promise<StudentInterface[]> => {
+export const getStudentsApi = async (): Promise<StudentInterface[]> => {
     try {
         const response = await fetch(`${process.env.NEXT_PUBLIC_API}students`);
 

@@ -1,4 +1,5 @@
-// import Groups from '@/components/Groups/Groups';
+import Students from '@/components/Students/Students';
+
 import Page from '@/components/layout/Page/Page';
 import { type Metadata } from 'next/types';
 

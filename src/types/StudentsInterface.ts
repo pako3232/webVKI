@@ -3,7 +3,8 @@ interface StudentInterface {
     first_name: string,
     last_name: string,
     middle_name: string,
-    groupid: number
+    groupId: number,
+    groupName: string
 }
 
 export default StudentInterface
